@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tutorial</title>
+</head>
+<body>
+    <h1>This is the Title of the Page.</h1>
+    <hr>
+    <h2>This is some random BIO about the Page.</h2>
+    <hr>
+    <h3>This is just another heading but small.</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos soluta nostrum quaerat dolor saepe et impedit. A doloribus amet non. Dignissimos architecto beatae quisquam non expedita iure earum qui exercitationem?</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora sed quidem reiciendis, accusamus doloribus beatae ad, sapiente odit omnis iure alias odio sint, repudiandae magnam accusantium cum consequatur nemo? Animi.</p>
+    <hr>
+    <h3>Now we need to create some list.</h4>
+    <h4>
+        Some simple ones first:
+    </h4>
+    <p>Unordered list:</p>
+    <ul>
+        <li>This is the first item.</li>
+        <li>This is the second item.</li>
+        <li>This is the third item.</li>
+    </ul>
+    <hr>
+    <p>Ordered list:</p>
+    <ol>
+        <li>This is the first item.</li>
+        <li>This is the second item.</li>
+        <li>This is the third item.</li>
+    </ol>
+    <hr>
+    <h3>Now lets create some nested ones.</h3>
+    <ul>
+        <li>This is the first item.</li>
+        <li>This is the second item.</li>
+        <ul>
+            <li>Now this is Unordered list inside another list.</li>
+            <li>This is item second.</li>
+                <ol>
+                    <li>Now this is an ordered list inside nested unordered list.</li>
+                    <li>Seems amazing, right?</li>
+                </ol>
+            <li>This is item third.</li>
+        </ul>
+        <li>This is the last item.</li>
+    </ul>
+    <hr>
+    <h3>We will now create a hyperlink using an anchor tag.</h3>
+    <p>Here if you want to search something on
+      Google, here's the link: <a draggable="true" href="https://www.google.com/">Google India</a></p>
+    <hr>
+    <h3>My favourite websites.</h3>
+    <ol>
+        <li>
+            <a href="www.zorotv.com">Zoro TV</a>
+        </li>
+        <li>
+            <a href="www.wikipedia.com">Wikipedia</a>
+        </li>
+        <li>
+            <a href="www.zomato.com">Zomato</a>
+        </li>
+        <li>
+            <a href="www.swiggy.com">Swiggy</a>
+        </li>
+    </ol>
+    <hr>
+    <h3>Inserting Some Image: </h3>
+    <img src="https://picsum.photos/200/300" height="200px" alt="random photo">
+    <hr>
+    <h3>Now we gonna learn about file paths.</h3>
+    <p>"./" indicates the file relative from current directory. "../" indicates the file relative from the root directory.</p>
+    <p>Absolute paths always point to the same location regardless of the current directory, whereas relative paths may point to different locations depending on the current directory.</p>
+    <hr>
+    <h3>An image of a dog taken from relative path.</h3>
+    <img src="./Assets/images/dogImage.jpg" height="200px" alt="CUTE DOGGO">
+    <hr>
+    <h2>Now we can navigate to our about page and Contact page.</h2>
+    <a href="./Public/about.html">About Page</a><br>
+    <a href="./Public/contact.html">Contact</a>
+</body>
+</html>
